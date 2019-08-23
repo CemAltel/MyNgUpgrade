@@ -1,4 +1,4 @@
-import { NgModule, ComponentFactoryResolver , ApplicationRef, Type } from '@angular/core';
+import { NgModule, ComponentFactoryResolver, ApplicationRef, Type } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { UpgradeModule } from '@angular/upgrade/static';
 import { FormsModule } from '@angular/forms';

@@ -29,7 +29,9 @@
 		'@angular/upgrade': 'npm:@angular/upgrade/bundles/upgrade.umd.js',
 		'@angular/upgrade/static': 'npm:@angular/upgrade/bundles/upgrade-static.umd.js',
 
+		// AngularJS
 		'angular': 'npm:angular/angular.js',
+		'ngRoute': 'npm:angular-route/angular-route.js',
 
 		// other libraries
 		'rxjs': 'npm:rxjs',

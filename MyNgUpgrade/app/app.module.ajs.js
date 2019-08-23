@@ -11,7 +11,14 @@ System.register(["@angular/upgrade/static"], function (exports_1, context_1) {
         execute: function () {
             exports_1("moduleName", moduleName = 'myApp');
             angjs = static_1.getAngularJSGlobal();
-            myApp = angjs.module(moduleName, []); // TODO: config
+            myApp = angjs.module(moduleName, ['ngRoute']);
+            myApp.config(["$routeProvider", "$locationProvider", function ($routeProvider, $locationProvider) {
+                    $routeProvider
+                        .when('/Claims', { templateUrl: 'claims/claimslist', controller: 'claimsController' })
+                        .otherwise({ redirectTo: '/Home' });
+                    $locationProvider.html5Mode(true);
+                    $locationProvider.hashPrefix('!');
+                }]);
         }
     };
 });

@@ -25,7 +25,7 @@ System.register(["@angular/core"], function (exports_1, context_1) {
                 MenuComponent = __decorate([
                     core_1.Component({
                         selector: 'my-menu',
-                        template: "<a class=\"nav-link\" routerLink=\"/Home\" routerLinkActive=\"active\">Home</a>\n\t\t\t\t<a class=\"nav-link\" routerLink=\"/About\" routerLinkActive=\"active\">About</a>\n\t\t\t\t<a class=\"nav-link\" routerLink=\"/Contact\" routerLinkActive=\"active\">Contact</a>",
+                        template: "<a class=\"nav-link\" routerLink=\"/Home\" routerLinkActive=\"active\">Home</a>\n\t\t\t\t<a class=\"nav-link\" routerLink=\"/About\" routerLinkActive=\"active\">About</a>\n\t\t\t\t<a class=\"nav-link\" routerLink=\"/Contact\" routerLinkActive=\"active\">Contact</a>\n\t\t\t\t<a class=\"nav-link\" routerLink=\"/Claims\" routerLinkActive=\"active\">Claims</a>",
                     }),
                     __metadata("design:paramtypes", [])
                 ], MenuComponent);

@@ -28,11 +28,9 @@ namespace MyNgUpgrade
 				"~/systemjs.config.js"
 			));
 
-			bundles.Add(new ScriptBundle("~/Scripts/jsmain").Include(
-				"~/node_modules/karma/node_modules/core-js/client/shim.min.js",
-				"~/node_modules/zone.js/dist/zone.js",
-				"~/node_modules/systemjs/dist/system.js",
-				"~/systemjs.config.js"
+			bundles.Add(new ScriptBundle("~/Scripts/angjs").Include(
+				// Controllers (Claims)
+				"~/ScriptsApp/controllers/Claims/claimsController.js"
 			));
 		}
 	}
